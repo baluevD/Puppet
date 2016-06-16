@@ -3,10 +3,8 @@ node default {
   #  version => '8u45',
   #  type => 'jdk'
   #}
-  java::oracle { 'jdk8' :
-  ensure  => 'present',
-  version => '8',
-  java_se => 'jdk',
+class { 'java' :
+  package => 'java-1.8.0-openjdk-devel',
 }
   class {'scala':
   }

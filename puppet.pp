@@ -1,6 +1,7 @@
 node default {
-  class {'scala':
-  }
   class {'java8':
   }
+  class {'scala':
+  }
+
 }

@@ -1,5 +1,5 @@
 node default {
-  class {'java8':  }
+  include java8
   class {'scala':  }
   class {'sbt':
   sbt_jar_version  => '0.13.11'

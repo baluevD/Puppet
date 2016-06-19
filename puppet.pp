@@ -1,5 +1,5 @@
 node default {
-  #class {'java': }
+  class {'java8': }
   class {'scala':  }
   class { 'sbt': }
 }
